@@ -1,0 +1,536 @@
+body {
+    background: white
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+label {
+    cursor: pointer;
+}
+
+.header {
+    box-shadow: 0px 1px  #74646269;
+}
+
+.heading {
+    color: rgb(29, 29, 29);
+    font-weight: 700;
+    font-family: 'Roboto';
+    padding-top: 1%;
+}
+
+
+.fa {
+    padding: 10px;
+    font-size:16px;
+    width: 40px;
+    text-align: center;
+    margin: 5px 5px;
+    color: tomato;
+    border: 2px solid tomato;
+    border-radius: 28px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .fa:hover {
+      /* opacity: 0.7; */
+      background-color: tomato;
+      color: white;
+
+  }
+
+.top_head {
+    padding: 0.5%;
+    /* background-color:#394048; */
+    background-color: tomato;
+    box-shadow: 0px 1px  #74646269;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.footer {
+    /* background: rgb(207, 207, 207) */
+    background: #394048;
+    padding: 5% 0;
+}
+
+.infomation-label {
+    display: flex;
+    flex-direction: column;
+    color: #999b9f;
+    word-break: break-all;
+    padding: 10% 0;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+
+.cpy_lable {
+    padding-left: 5px;
+    font-weight: 2;
+    font-size: 14px;
+    font-family:'Roboto';
+    color: white;
+}
+
+.fo-connect,
+.fo-information {
+    padding-top: 10px;
+    padding-left: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    color: white;
+}
+
+.fo-digital-branding {
+    padding: 10px;
+}
+
+.fo-bottom-header {
+    padding: 1%;
+    background-color:#212529;
+    color:#868e96;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    
+}
+
+.side-panel {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card {
+    /* margin: 4px; */
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px #00000030;
+}
+.card-text {
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(75, 75, 75);
+}
+.text-muted {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.card-body {
+    padding: 5%;
+}
+
+.card:hover {
+    box-shadow: 5px 10px 10px #00000030;
+}
+
+.card-label {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.side-panel-card:hover {
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.more__btn-div {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.side-panel-card {
+    background-color: #212529;
+}
+
+.main-panel {
+    margin-top: 2px;
+    padding: 10px;
+}
+
+.main-panel-fresh-app-pane,
+.main-panel-reissue-app-pane {
+    position: relative;
+}
+
+.__heading {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.65rem;
+    padding: 2px 0px 20px 0px;
+    color: #38404F;
+    font-weight: 700;
+}
+.__subheading {
+font-weight: 600;
+    font-size: 0.90rem;
+    color: #38404F;
+    font-weight: 400;
+}
+
+.chipCard {
+    color: tomato;
+    border-radius: 10px;
+    border: 1px solid tomato;
+    font-family: 'Roboto';
+    font-size: 0.75rem;
+    padding: 0.5%;
+    word-wrap: none;
+    margin: 4px 4px;
+}
+
+.chipCard:hover {
+    color: white;
+    background: tomato;
+    cursor: pointer;
+}
+
+.card__box-subtitleButton {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open sans',sans-serif;
+}
+
+.card__box-subtitleButton button{
+    font-size: 12px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid tomato;
+    padding: 0 15px;
+    font-weight: 500;
+    background: tomato;
+}
+
+.card__box-subtitleButton button:hover{
+    color: white;
+    background: tomato;
+}
+
+
+/* Header Navbar  */
+
+.navbar {
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0px 1px 4px #bdbdbd7d;
+}
+
+.navbar-nav {
+    padding-left: 5%;
+}
+
+.navbar-item {
+    margin: 0px 4px;
+}
+
+.nav-link  {
+    color: #394048;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 0 0.25rem;
+    
+}
+
+.nav-link:hover {
+    color: tomato;
+}
+
+.navbar-brand h5 {
+    color: tomato;
+    font-family: 'Roboto' , 'Open sans' , sans-serif;
+}
+.navbar-brand label{
+    color: #868686;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open sans' , sans-serif;
+}
+
+.dropdown-item:hover {
+    color: white;
+    background: tomato;
+}
+.headerPhoneNumberBtn {
+    background: white;
+    border: 2px solid tomato;
+    border-radius: 28px;
+    color: tomato;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0 4% 0 0%;
+}
+
+.headerPhoneNumberBtn .fa {
+    border: none;
+    color: tomato;
+    background: transparent;
+}
+
+.headerPlanYourTripBtn {
+    background: tomato;
+    border: 1px solid tomato;
+    border-radius: 28px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0 4% 0 0%;
+}
+.headerPlanYourTripBtn .fa {
+    color: white;
+    background: tomato;
+    padding: 0;
+}
+
+.headerSideBtnDiv {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .navbar-toggler {
+        border: 2px solid tomato;
+    }
+    .navbar-toggler-icon {
+        /* color: tomato; */
+        border: 1px solid tomato;
+    }
+    .navbar-nav {
+        border-left: 4px solid tomato;
+    }
+    .navbar-collapse {
+        align-items: center;
+    }
+    .dropdown-menu {
+        background: tomato;
+    }
+    .dropdown-item {
+        color: white;
+    }
+    .headerSideBtnDiv {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        width: 100%;
+    }
+}
+/* End */
+
+.section__body {
+    
+}
+
+/* Top Trending India Holiday Destinations  */
+.topTrendIndia {
+    padding: 5% 5%;
+}
+
+.topTrendIndia-infoPart {
+    display: flex; 
+    flex-direction: row;
+    justify-content: left;
+}
+
+.topTrendIndia-infoPart div {
+    margin: 0 1% 1% 0;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .topTrendIndia-infoPart {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .topTrendIndia-infoPart div {
+        margin: 0 1% 4% 0;
+    }
+}
+
+/* End */
+
+/* Trending Tour Packages */
+.topTrendPackages {
+    padding: 5% 5%;
+    background-color: rgba(240, 240, 240, 0.294);
+}
+
+.topTrendPackages-infoPart {
+    display: flex; 
+    flex-direction: row;
+    justify-content: left;
+}
+
+.topTrendPackages-infoPart div {
+    margin: 0 1% 1% 0;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .topTrendPackages-infoPart {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .topTrendPackages-infoPart div {
+        margin: 0 1% 4% 0;
+    }
+}
+
+.topTrendPackages-infoPart .card .card-img-overlay{
+    margin: 1%;
+}
+
+.topTrendPackages-infoPart .card .card-img-overlay a {
+    padding: 2% 5%;
+    color: white;
+    border: 1px solid tomato;
+    border-radius: 10px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    background: rgba(255, 99, 71, 0.849);
+}
+
+.topTrendPackages-infoPart .card .card-img-overlay a:hover {
+    background: tomato;
+    cursor: pointer;
+}
+
+/* End */
+
+/* Full Banner Slider */
+.fullBannerSlider {
+    display: flex;
+    justify-content: center;
+}
+/* End */
+
+/* Themes You Can Explore */
+.themeYouCanEx {
+    padding: 3% 3%;
+}
+
+.themeYouCanEx__main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1% 1%;
+    border-radius: 5px;
+    align-items: center;
+    border: 2px solid rgba(56, 64, 79, 0.164);
+    margin: 4px 0;
+}
+
+.themeYouCanEx__main img {
+    max-width: 50px;
+}
+
+.themeYouCanEx__main label {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(42, 42, 42, 0.774);
+}
+
+/* End */
+
+/* Why Choose Use */
+.whyChooseUs {
+    padding: 5% 5%;
+}
+.whyChooseUs__feedback {
+    display: flex;
+}
+
+.whyChooseUs__feedback-heading {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 0px 0px 12px;
+}
+
+.whyChooseUs__feedback-heading label {
+    font-size: 1.10rem;
+    color: #38404F;
+    font-weight: 600;
+} 
+
+.whyChooseUs__feedback-heading p {
+    font-size: 0.84rem;
+    color: rgb(73, 73, 73);
+    font-weight: 500;
+} 
+
+/* End */
+
+/* Popular On TAD */
+.popularOnTad {
+    padding: 5% 5%;
+    background: #F9F9FA;
+    display: flex;
+    flex-direction: column;
+}
+.popularOnTad-infoPart {
+    display: flex;
+    flex-flow: wrap;
+}
+/* End */
+
+/* Suscribe */
+.suscribe {
+    background-color: tomato;
+    padding: 5% 5%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.suscribe div label {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+.suscribe__heading div{
+   display: flex;
+   justify-content: center  ;
+}
+.suscribe-infoPart {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    font-size: 1rem;
+    font-family: 'Roboto';
+}
+
+.suscribe__component {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.suscribe__component input {
+    border:2px solid white;
+    color: white;
+    padding: 4px 2%; 
+    border-radius: 0px;
+    width:auto;
+    background-color: tomato;
+}
+
+.suscribe__component button {
+    background-color: white;
+    color: tomato;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 0px;
+}
+
+.suscribe__component button:hover {
+    background-color: #212529;
+    border: 1px solid #212529;
+    color: white;
+    box-shadow: 2px 2px 2px #212529;
+}
+/* End */
